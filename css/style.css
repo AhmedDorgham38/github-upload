@@ -1,0 +1,758 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap");
+
+*{
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  overflow: visible;
+  scroll-behavior: smooth;
+}
+
+@media screen and(max-width:50px){
+
+} 
+
+.p{
+  font-family:'Times New Roman', Times, serif;
+}
+.h2{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 50px;
+  background-color:rgb(157, 123, 202) ;
+  color: rgb(252, 250, 248);
+  
+  text-align: center; 
+
+}
+
+nav {
+  width: 100%;
+  background-color: rgb(238, 202, 226);
+  line-height: normal;
+  padding: 0px 10px;
+  position: fixed;
+  z-index: 1;
+  box-shadow: 0px 0px 10px 0px rgb(241, 99, 234)  inset ;
+
+}
+
+nav .home {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.5;
+  
+}
+
+nav .home p {
+  float: left;
+  color: rgb(80, 114, 136);
+  text-transform: uppercase;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li a {
+  color: rgb(84, 141, 143);
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 32px;
+}
+nav ul li a:hover {
+  color: rgb(224, 97, 167);
+}
+
+nav ul li .list {
+  color:rgb(0, 0, 0);
+}
+
+nav ul li .home {
+  color: rgb(224, 97, 167);
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 32px;
+}
+
+.image {
+  width: 100px auto;
+  opacity: 0.8;
+}
+
+input {
+  color: rgb(10, 0, 0);
+  width: 100px;
+  margin-top: 100px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 300px;
+  font-size: large;
+  font-stretch: extra-expanded;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-display: 300%;
+}
+
+input:hover {
+  width: 150px;
+  background-color: rgb(220, 102, 224);
+  cursor: grab;
+  font: bold;
+}
+
+li {
+  float: left;
+}
+div.sticky {
+  position:-webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: rgb(238, 202, 226);
+  border: 
+   rgb(238, 202, 226);
+  
+}
+
+/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+script {
+  display: none !important;
+}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+a {
+  background: 0 0;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: 700;
+}
+dfn {
+  font-style: italic;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  filter: drop-shadow(2px 4px 8px #585858);
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+q {
+  quotes: "\201C""\201D""\2018""\2019";
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 0;
+}
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+button,
+input {
+  line-height: normal;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:active,
+:focus {
+  outline-style: none;
+}
+
+a:hover {
+  color: #1cdb25;
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+
+#site {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+#masthead {
+  border-bottom: 1px solid #ddd;
+}
+
+#masthead h1 {
+  margin: 0;
+  padding: 5px;
+  font-size: 3.5em;
+  overflow: hidden;
+  padding-left: 85px;
+  min-height: 82px;
+  line-height: 2.3;
+  background: url(../images/logo.png) no-repeat 0 50%;
+  color: #900;
+}
+
+.tagline {
+  float: right;
+  color: #666;
+  font-size: 14px;
+  padding-top: 3.5em;
+}
+
+#products ul {
+  margin: 1.5em 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+#products li {
+  float: left;
+  width: 31%;
+  margin: 0 1%;
+  display: block;
+}
+
+.product-image {
+  margin: 0 auto 1em auto;
+  background: #000;
+  width: 300px;
+  height: 330px;
+  overflow: hidden;
+  border-radius: 50px;
+  font-size: 1.9em;
+}
+
+.product-description {
+  padding: 1em;
+  background: rgb(187, 134, 169);
+  color: rgb(71, 5, 5);
+  border-radius: 5px;
+}
+
+.product-name {
+  text-align: center;
+  color: rgb(71, 5, 5);
+  margin: 0;
+  font-size: 1.4em;
+  padding-bottom: 0.2em;
+  border-bottom: 1px dotted #666;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.product-price {
+  width: 4em;
+  height: 4em;
+  font-size: 23px;
+  text-align: center;
+  margin: 1em auto;
+  background: #fff;
+  color: #800;
+  line-height: 4;
+  border-radius: 50%;
+}
+
+form.add-to-cart div,
+form.add-to-cart p {
+  text-align: center;
+}
+
+form input.qty {
+  width: 40px;
+  border: 1px solid #eee;
+  font: 1em "PT Serif", serif;
+  background: #f9f9f9;
+  color: #000;
+  border-radius: 3px;
+  margin-left: 0.4em;
+}
+
+.btn,
+a.btn {
+  display: inline-block;
+  background: #5e0251;
+  color: #fff;
+  font: 1em "PT Serif", serif;
+  padding: 0.3em 1em;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid rgb(51, 4, 35);
+}
+
+
+
+body#checkout-page #site-info {
+  position: static;
+}
+
+#shopping-cart {
+  margin: 1.5em 0;
+}
+
+.shopping-cart {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.shopping-cart th {
+  font-size: 1.3em;
+  padding: 0.3em;
+  width: 33.3%;
+  border: 1px solid #ddd;
+  text-transform: uppercase;
+}
+
+.shopping-cart td {
+  padding: 0.3em;
+  width: 33.3%;
+  border: 1px solid #ddd;
+}
+
+.shopping-cart tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.shopping-cart td.pdelete {
+  text-align: center;
+}
+
+.pdelete a,
+.pdelete a:hover {
+  color: #c00;
+  text-decoration: none;
+  font-size: 2.5em;
+  display: block;
+  text-align: center;
+}
+
+#shopping-cart-actions {
+  margin: 1.5em 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+#shopping-cart-actions li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+#pricing {
+  padding: 0.5em;
+  margin: 1em 0;
+  background: #fafafa;
+}
+
+#sub-total,
+#shipping {
+  margin: 1.5em 0;
+  text-align: right;
+}
+
+#sub-total span,
+#shipping span {
+  margin-left: 1em;
+}
+
+#content > h1,
+#checkout-order-form h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+#pricing #sub-total,
+#pricing #shipping {
+  margin: 1em 0;
+}
+
+#checkout-order-form {
+  margin: 1.5em 0;
+}
+
+#checkout-order-form fieldset {
+  border: 1px solid rgb(27, 1, 1);
+  border-radius: 6px;
+  padding: 1em;
+  margin-bottom: 1.3em;
+}
+
+#checkout-order-form legend {
+  padding: 0.3em;
+  background: #fafafa;
+  font-weight: bold;
+}
+
+#checkout-order-form div {
+  margin-bottom: 1em;
+}
+
+#checkout-order-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+  text-align: left;
+}
+
+#checkout-order-form input[type="text"] {
+  width: 200px;
+  display: block;
+  background: rgb(224, 209, 209);
+  border: 1px solid rgb(105, 6, 76);
+  border-radius: 4px;
+  padding: 0.3em;
+}
+
+#checkout-order-form select {
+  width: 200px;
+  display: block;
+}
+
+.message {
+  display: block;
+  margin: 0.5em 0;
+  color: red;
+}
+
+#user-details {
+  margin: 1.5em 0;
+}
+
+#user-details > h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+#user-details-content {
+  margin: 1.5em 0;
+  padding: 1em;
+  border: 1px solid rgb(12, 12, 12);
+ border-radius: 6px;
+  overflow: hidden;
+}
+
+#user-details-content .detail {
+  float: left;
+  width: 46%;
+}
+
+#user-details-content .detail.right {
+  float: right;
+}
+
+#user-details-content .detail > h2 {
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 0.5em;
+}
+
+#user-details-content ul {
+  margin: 0 0 1em 0;
+  padding: 0;
+  list-style: none;
+}
+
+#user-details-content li {
+  display: block;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid rgb(49, 13, 13);
+}
+
+/* ====================== 
+  ======= footer ======== 
+  ======================= */
+  footer {
+    padding: 5vh 5vw;
+    justify-content: space-between;
+    background-color: rgb(8, 1, 41);
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    line-height: 1.3;
+  }
+  footer > div {
+    width: 20vw;
+  }
+  footer i.fas {
+    margin-right: 10px;
+  }
+  footer i.fab {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+  }
+  footer a:nth-child(1):hover i.fab {
+    color: var(--blue);
+    /* background-color: rgb(255, 255, 255); */
+  }
+  footer a:nth-child(2):hover i.fab {
+    color: mediumorchid;
+  }
+  footer a:nth-child(3):hover i.fab {
+    color: dodgerblue;
+  }
+  
+  footer input[type="email"] {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: unset;
+    padding-left: 10px;
+  }
+  footer form button {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: unset;
+    color: rgb(255, 255, 255);
+    background-color: rgb(253, 98, 207);
+    font-size: 18px;
+  }
+
+
+/* start  sign in css  */
+ 
+body{    
+  background: linear-gradient(to top,rgba(250, 10, 20, 0)100%,rgba(100,50,30,0)50%), 
+  url(https://th.bing.com/th/id/R.a0681135208a2a1ef1fe4f06ee6d0867?rik=4fs1ouXkeC6O%2bQ&pid=ImgRaw&r=0);
+  
+  background-position: center;
+  background-size: cover;
+  height:100vh;
+  }
+  
+.form{
+  width: 250px;
+  height: 340px;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(to top,rgba(0,0,0,0)50%,rgba(226, 17, 17, 0)50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+  padding: 40px 25px ;
+} 
+.form h2{
+  width: 220px;
+  text-align: center;
+  padding-left: 11px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: rgb(52, 152, 177);
+}
+.form input{
+  width: 100%;
+  height: 35px;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  background: transparent;
+  border-bottom: 1px solid rgb(0, 0, 0) ;
+  border-top: none;
+  border-left: none;
+  border-right: none; 
+  color: rgb(15, 15, 15);
+  font-size: 15px;
+  outline: none;
+}
+
+.form input:focus{
+  outline: none;
+}
+::placeholder{
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+  font-size: 18px;
+  padding: 10px 15px ;
+  background: transparent;
+  border: none;
+  margin-top:  10px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+.button a{
+  text-decoration: none;
+  color: rgb(52, 152, 177);
+  font-weight: bold;
+
+}
+
+.button a:hover{
+  color: rgb(223, 37, 145);
+}
+
+.form .link{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+padding-top: 10px;
+text-align: center;
+
+}
+.form .link a{
+  text-decoration: none;
+  color: blue;
+}
+.liw{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+
+}
+
+.icons a{
+  text-decoration: none;
+  color: #fff ;
+
+}
+
+.icons ion-icon{
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  padding: 7px;
+  padding-top: 5px;
+  transition: .4s ease;
+
+}
+
+.icons ion-icon:hover{
+  color: #00f0ff;
+}
